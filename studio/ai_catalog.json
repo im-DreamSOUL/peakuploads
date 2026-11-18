@@ -1,0 +1,12 @@
+{
+  "_about": "The AI models PeakCut can choose between when a job is set to Choose automatically. speed and quality are rated 1 to 5 (5 is best): they are a starting guess, not a benchmark. tier is free or paid. daily_calls is the most calls per day this model may take on this server; 0 means not set, so only the service's own limit applies. Fill daily_calls from the service's own page for its limits, and check each model id with Find models in Settings, AI. Models whose service has no key saved are never used.",
+  "models": [
+    {"provider": "gemini", "model": "gemini-2.5-flash-lite", "tier": "free", "speed": 5, "quality": 3, "daily_calls": 0},
+    {"provider": "gemini", "model": "gemini-2.5-flash", "tier": "free", "speed": 4, "quality": 4, "daily_calls": 0},
+    {"provider": "gemini", "model": "gemini-2.5-pro", "tier": "paid", "speed": 2, "quality": 5, "daily_calls": 0},
+    {"provider": "groq", "model": "llama-3.3-70b-versatile", "tier": "free", "speed": 5, "quality": 3, "daily_calls": 0},
+    {"provider": "openrouter", "model": "google/gemini-2.5-flash", "tier": "free", "speed": 4, "quality": 4, "daily_calls": 0},
+    {"provider": "openai", "model": "gpt-4o-mini", "tier": "paid", "speed": 4, "quality": 3, "daily_calls": 0},
+    {"provider": "xai", "model": "grok-4", "tier": "paid", "speed": 3, "quality": 5, "daily_calls": 0}
+  ]
+}
